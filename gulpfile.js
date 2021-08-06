@@ -43,7 +43,7 @@ function styles() {
 function scripts() {
     return src('app/js/script.js')
         .pipe(webpack({
-            mode: 'development',
+            mode: 'production',
             output: {
                 filename: 'bundle.js',
                 path: __dirname + 'app/js'
